@@ -10,19 +10,19 @@ api.get('/galleries/:id', (req, res) => {
 });
 
 api.get('/checkout/:id', (req, res) => {
-  axios.get(`http://localhost:3010/api/checkout/${req.params.id}`)
+  axios.get(`http://34.219.249.230/api/checkout/${req.params.id}`)
     .then(({data}) => res.status(200).send(data))
     .catch((err) => res.status(400).send(err));
 })
 
 api.get('/img_carousel/:id', (req, res) => {
-  axios.get(`http://localhost:3004/api/img_carousel/${req.params.id}`)
+  axios.get(`http://3.101.61.202/api/img_carousel/${req.params.id}`)
     .then(({data}) => res.status(200).send(data))
     .catch((err) => res.status(400).send(err));
 })
 
 api.get('/reviews/:id', (req, res) => {
-  axios.get(`http://localhost:3000/api/reviews/${req.params.id}`)
+  axios.get(`http://54.215.215.126/api/reviews/${req.params.id}`)
     .then(({data}) => res.status(200).send(data))
     .catch((err) => res.status(400).send(err));
 })
