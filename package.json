@@ -1,9 +1,9 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "proxy-jacky",
+  "version": "1.0.0",
+  "description": "Proxy server for deployment",
+  "author": "JackyPog",
+  "license": "Jacky's License",
   "engines": {
     "node": ">=6.13.0"
   },
